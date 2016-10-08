@@ -1,2 +1,5 @@
-./letsplaybadminton.iml
-./letsplaybadminton.ipr
+letsplaybadminton.iml
+letsplaybadminton.ipr
+letsplaybadminton.iws
+build
+.gradle
