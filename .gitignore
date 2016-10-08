@@ -2,4 +2,5 @@ letsplaybadminton.iml
 letsplaybadminton.ipr
 letsplaybadminton.iws
 build
+out
 .gradle
