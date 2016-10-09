@@ -11,7 +11,7 @@ public class ActivityRecordParser {
 
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
     private static final String SPACE_SYMBOL = " ";
-    public static final String WAVE_SYMBOL = "~";
+    private static final String WAVE_SYMBOL = "~";
 
     public ActivityRecord parse(String input) throws FormatException {
         String[] fields = input.split(SPACE_SYMBOL);

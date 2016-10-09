@@ -6,12 +6,12 @@ public class ActivityRecord {
 
     private Date startDate;
     private Date endDate;
-    private int amount;
+    private int peopleAmount;
 
-    public ActivityRecord(Date startDate, Date endDate, int amount) {
+    public ActivityRecord(Date startDate, Date endDate, int peopleAmount) {
         this.startDate = startDate;
         this.endDate = endDate;
-        this.amount = amount;
+        this.peopleAmount = peopleAmount;
     }
 
     public Date getStartDate() {
@@ -30,11 +30,11 @@ public class ActivityRecord {
         this.endDate = endDate;
     }
 
-    public int getAmount() {
-        return amount;
+    public int getPeopleAmount() {
+        return peopleAmount;
     }
 
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public void setPeopleAmount(int peopleAmount) {
+        this.peopleAmount = peopleAmount;
     }
 }

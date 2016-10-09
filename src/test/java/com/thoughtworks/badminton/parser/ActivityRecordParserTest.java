@@ -18,7 +18,7 @@ public class ActivityRecordParserTest {
     public void shouldParseActivityRecordSuccessfully() throws FormatException, ParseException {
         ActivityRecordParser activityRecordParser = new ActivityRecordParser();
         ActivityRecord activityRecord = activityRecordParser.parse("2016-06-02 20:00~22:00 7");
-        assertThat(activityRecord.getAmount(), is(7));
+        assertThat(activityRecord.getPeopleAmount(), is(7));
         assertThat(activityRecord.getStartDate(), is(dateFormat.parse("2016-06-02 20:00")));
         assertThat(activityRecord.getEndDate(), is(dateFormat.parse("2016-06-02 22:00")));
     }
